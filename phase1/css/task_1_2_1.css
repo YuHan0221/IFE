@@ -1,0 +1,234 @@
+body{
+	background-color: #C4CCCF;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+#head{
+	background-color: #0b0b0b;
+	position: relative;
+	width: 100%;
+	height: 80px;
+}
+#head #nav{
+	position: absolute;
+	top:14px;
+	right:20px;
+}
+#head ul li{
+	float: left;
+	width: 80px;
+	margin:10px;
+	font-size: 14px;
+	color:white;
+	list-style-type:disc; 
+}
+#head ul li a{
+	color: white;
+	text-decoration: none;
+}
+#part1{
+	float: left;
+	width: 100%;
+	height: 550px;
+	position: relative;
+	margin: 0;
+}
+#part2{
+	float: right;
+	margin-top:20px;
+	width: 100%;
+	height: 540px;
+	position: relative;
+}
+.content{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	right:20px;
+	background-color: white;
+}
+.content h1{
+	font-size: 24px;
+	margin-left: 20px;
+}
+.content h2{
+	font-size: 24px;
+	margin-left: 20px;
+}
+.content h3{
+	color:#747778;
+	font-size: 18px;
+	margin-left:20px; 
+}
+.content h3+p{
+	color: #A2A3A3;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.content .word{
+	line-height:20px;
+	margin-left: 20px;
+}
+.content img{
+	margin-left: 20px;
+}
+.content li{
+	list-style: none;
+}
+.content ol li{
+	list-style: decimal;
+}
+#part3{
+	float: right;
+	margin-top:20px;
+	width: 100%;
+	height: 1510px;
+	position: relative;
+}
+#part3 .img{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	right:20px;
+	background-color: white;
+}
+#part3 .img h2{
+	margin-left: 20px;
+	margin-top: 40px;
+}
+#part3 .thumbnail{
+	margin-left: 70px;
+	margin-bottom: 20px;
+	width: 120px;
+	height:120px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#C4CCCF;
+	position: relative;
+}
+#part3 .thumbnail p{
+	text-align: center; 
+	font-size: 12px;
+}
+#part3 .thumbnail img{
+	width: 100px;
+	height: 80px;
+	position: absolute;
+	top:30px;
+	left:10px;
+}
+#part4{
+	float: right;
+	margin-top:20px;
+	width: 100%;
+	height:370px;
+	position: relative;
+}
+#part4 table{
+	width: 1200px;
+	height:150px;
+	margin-left: 20px;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin-bottom:20px;
+}
+#part4 table th{
+	background-color: black;
+	color:white;
+	font-size: 14px;
+	text-align: left;
+	border:1px solid #ddd;
+}
+#part4 table tr td{
+	font-size: 12px;
+	border:1px solid #ddd;
+}
+#part4 table tr:last-child{
+	background-color: #ddd;
+	font-weight: bolder;
+}
+#part5{
+	float: right;
+	margin-top:20px;
+	width: 100%;
+	height:592px;
+	position: relative;
+}
+#submit{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	right:20px;
+	background-color: white;
+}
+#submit h3{
+	margin-left: 30px;
+	padding-left: 20px;
+	border-left: 3px solid #ddd;
+}
+#submit p{
+	font-size: 12px;
+	margin-left:200px;
+	margin-bottom: 20px;
+}
+#submit fieldset p:nth-child(1){
+}
+#submit fieldset p:nth-child(2){
+	margin-left:297px;
+	color: #999999;
+}
+#submit fieldset p:nth-child(3){
+	margin-left:224px;
+}
+#submit fieldset p:nth-child(5){
+	color: #999999;
+	margin-left: 297px;
+}
+#submit #click{
+	padding-left:55px;
+}
+.check{
+	font-size: 12px;
+	margin-left:262px;
+}
+#ps{
+	font-size: 12px;
+	margin-left:236px;
+	margin-bottom:140px;
+	position: relative;
+}
+label[for="ps"]{
+	display:block;
+	margin-top:10px;
+}
+#ps textarea{
+	display: block;
+	position: absolute;
+	left: 60px;
+	top:0px;
+}
+button{
+	display: block;
+	position: absolute;
+	left: 50px;
+	top:480px;
+	border-radius: 10px;
+	font-size: 16px;
+	color: white;
+	background-color:#008CBA;
+	margin-left: 10px;
+	padding:10px 600px;
+}
+#foot{
+	margin-top:-5px;
+	background-color: #0b0b0b;
+	color: white;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+	float: right;
+}
