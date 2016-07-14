@@ -1,0 +1,10 @@
+#big-box{
+	background-color: #e8eae9;
+}
+.box{
+	background-color: #8ec63f;
+	width: 200px;
+	height: 100px;
+	margin: 20px;
+	float: left;
+}
