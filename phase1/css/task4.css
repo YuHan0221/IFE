@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding:0;
+}
+#box{
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin: -100px 0 0 -200px;
+}
+#left-circle{
+	border-radius: 0 0 50px 0;
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	position: absolute;
+}
+#right-circle{
+	border-radius: 50px 0 0 0;
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	position: absolute;
+	bottom:0px;
+	right:0px; 
+}
