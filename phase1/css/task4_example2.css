@@ -1,0 +1,86 @@
+*{
+	font-family: 微软雅黑;
+}
+body{
+	line-height: 1.5em;
+
+}
+#container{
+	position: relative;
+	border:3px solid #6AC5AC;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+nav{
+	border:2px solid #D64078;
+	width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+nav ul li a:link{
+	color:#D64078;
+	text-decoration: none;
+}
+nav ul li a:visited{
+	color: #D64078;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+section{
+	margin-left: 200px;
+	border: 2px solid #FDC72F;
+	padding-left:10px;
+}
+code{
+	background-color:#ECECEC; 
+}
+#seat {
+	visibility: hidden;
+	width: 600px;
+	height: 500px;
+}
+footer{
+	margin: 0px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 70px;
+	border:2px solid #96C02E;
+	background-color: white;
+}
+footer p{
+	text-align: center;	
+}
+.left-label{
+	line-height: 1em;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #6AC5AC;
+}
+.right-label{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.elem{
+	position: relative;
+}
+.elem-red > .left-label , .elem-red > .right-label{
+	background-color: #D64078;
+}
+.specialcolor{
+	background-color: #eee;
+}
+.elem-orange > .left-label , .elem-orange > .right-label{
+	background-color: #FDC72F;
+}
+.elem-green > .left-label , .elem-green > .right-label {
+	background-color: #96C02E;
+}
+
+
+
